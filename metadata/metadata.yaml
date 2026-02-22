@@ -1,96 +1,94 @@
 # yaml-language-server: $schema=https://json.schemastore.org/yamllint.json
 
-#Configuration
-template: formal.html #Located in ./templates
+# Configuration
+template: formal.html
 use_photo: false
 photo: photo.png
-use_favicon: true
+use_favicon: false
 favicon: favicon.ico
 pdf_generation: true
-pdf_name: jane-doe.pdf
+pdf_name: emiliano-contreras.pdf
 
-#Metadata
-name: Jane Doe
-title: Software Engineer
-resume_link: disaa0.github.io/web-resume/
+# Metadata
+name: Emiliano Contreras
+title: Mechatronics Engineering Student
+resume_link: "0xemiss.github.io"
 facts:
-    - title: Residence
-      url: https://maps.app.goo.gl/UCupEfpjguBUrz1D9
-      icon: <i class="fa fa-home fact-icon"></i>
-      text: New York
-    - title: GitHub
-      url: https://github.com/janedoe
-      icon: <i class="fa-brands fa-github fact-icon"></i>
-      text: jane_doe
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/janedoe/
-      icon: <i class="fa-brands fa-linkedin fact-icon"></i>
-      text: jane_doe
-    - title: Email
-      url: mailto:janedoe@mail.com
-      icon: <i class="fa fa-envelope fact-icon"></i>
-      text: jane@mail.com
+  - title: Residence
+    url: https://maps.app.goo.gl/UCupEfpjguBUrz1D9
+    icon: <i class="fa fa-home fact-icon"></i>
+    text: Hermosillo, Sonora, Mexico
+  - title: Phone
+    url: tel:+526624116118
+    icon: <i class="fa fa-phone fact-icon"></i>
+    text: (662) 411-6118
+  - title: Email
+    url: mailto:emicontrerasr@gmail.com
+    icon: <i class="fa fa-envelope fact-icon"></i>
+    text: emicontrerasr@gmail.com
 
 jobs:
-  - position: Software Developer
-    period: Jun 2020 - Present
-    company: Tech Solutions Inc.
+  - position: Participant
+    period: 2025
+    company: E3 Semiconductors UNISON Program
     bullet_points:
-      - Developed and maintained web applications using Python and Django.
-      - Collaborated with cross-functional teams to design, develop, and implement new features.
-      - Implemented automated testing and continuous integration using Jenkins.
+      - Learned about the semiconductor industry and its applications.
+      - Strengthened ethical awareness and social responsibility.
     technology:
-      - Python
-      - Django
-      - Jenkins
-  - position: Junior Developer
-    period: Jan 2018 - May 2020
-    company: CodeCraft
+      - Semiconductor fundamentals
+      - Industry practices
+      - CSR
+
+  - position: Trainee
+    period: 2024
+    company: Santander Agile Program
     bullet_points:
-      - Assisted in the development of internal tools using JavaScript and Node.js.
-      - Participated in code reviews and provided constructive feedback to peers.
-      - Helped maintain code quality and organization.
+      - Learned agile methodology principles.
+      - Worked in teams following agile workflows.
     technology:
-      - JavaScript
-      - Node.js
-      - Git
+      - Agile
+      - Team collaboration
 
 educations:
-    - degree: Bachelor of Science in Computer Science
-      period: Sep 2014 - Jun 2018
-      university: University of Example
-      projects: 
-        # - title: Inventory Management System
-        #   skills: ['MongoDB', 'Python', 'React']
-        #   link: '<a href="https://github.com/user/repo"> <i class="fa-brands fa-github"></i> </a>'
-        #   contents: 
-        #     I developed an inventory management system for a local business, improving their inventory tracking and reporting capabilities.
-        # - title: Personal Portfolio Website
-        #   position: Developer
-        #   period: Sep 2016 - Dec 2016
-        #   skills: ['Python', 'Flask']
-        #   link: '<a href="https://github.com/user/repo"><i class="fa-brands fa-github"></i></a>'
-        #   contents:
-        #     I developed my personal portfolio website, showcasing my projects and skills.
-      relevant_courses: CS 101 - Introduction to CS, CS 201 - Data Structures and Algorithms, CS 301 - Computer Organization and Architecture.
+  - degree: Mechatronics Engineering
+    period: Expected May 2028
+    university: Universidad de Sonora
+    projects:
+      - title: Adjustable DC Power Supply
+        skills: ['Wave rectifier', 'Power Circuits', 'Filter π']
+        contents: Hands-on design and implementation of an adjustable DC power supply.
+      - title: SCARA Robotic Arm
+        skills: ['Mechanisms', 'Robotic', 'Control']
+        contents: Design and construction of a SCARA-type robotic arm prototype.
+      - title: Humidity and Temperature Monitoring System
+        skills: ['Docker', 'Node-Red', 'MySQL', 'Chat-bot']
+        contents:  Hands-on design and implementation of the system, featuring network communication between two microcontrollers and database access via Telegram.
+    # relevant_courses: Mathematics, Electronic Circuits, Programming, Mechanisms, Control Systems.
 
 personal_projects:
-    - title: Personal Website
-      period: January 2023 - Present
-      description: A responsive website designed to present my work and projects. This website is built using HTML, CSS, and JavaScript, and is designed to be responsive and accessible on various devices.
-      skills: ['HTML', 'CSS', 'JavaScript']
-      link: '<a href="XXXXXXXXXXXXXXXXXXXXXXXXXXXX"><i class="fa-brands fa-github"></i></a>'
+  - title: Prototypes and Competitions
+    period: 2023 - Present
+    description: Hands-on learning through practical prototypes and participation in engineering competitions, including the 3rd MAKERSPACE EXPO.
+    skills: ['Prototyping', 'Functionality', 'Electrical Design']
 
 skills:
-    - Strong problem-solving skills and ability to work in a team environment.
-    - Eagerness to acquire new skills and knowledge.
-    - Excellent communication and collaboration skills.
-    - Experience in agile development methodologies.
+  - Excellent communication and teamwork skills.
+  - Strong sense of responsibility and kindness.
+  - Motivated to encourage group performance.
+  - Ability to learn quickly and adapt.
 
 tech_skills:
-    - title: Programming Languages
-      text: Python, Java, C++
-    - title: Version Control
-      text: Git, GitHub
-    - title: Languages
-      text: 'Spanish, English'
+  - title: Manufacturing Processes
+    text: Welding, turning, milling machine, temporary mold casting, polymers.
+  - title: Electronics
+    text: Electronic symbols, low-pass and high-pass filters, amplifiers, logic gates, flip-flops, wave rectifiers.
+  - title: Programming
+    text: Python, C, Java.
+  - title: Mechanics
+    text: Design of mechanical elements and mechanisms.
+  - title: Control
+    text: Basic knowledge of block diagrams and control systems.
+  - title: Software
+    text: Python, Google Colab, NetBeans, Livewire, SolidWorks, Docker, Arduino, FluidSIM.
+#  - title: Languages
+#    text: Spanish, English.
