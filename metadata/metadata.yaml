@@ -10,7 +10,7 @@ pdf_generation: true
 pdf_name: emiliano-contreras.pdf
 
 # Metadata
-name: Emiliano Contrerass
+name: Emiliano Contreras
 title: Mechatronics Engineering Student
 resume_link: "0xemiss.github.io"
 facts:
@@ -23,9 +23,9 @@ facts:
     icon: <i class="fa fa-phone fact-icon"></i>
     text: (662) 411-6118
   - title: Email
-    url: mailto:emicontrerasr@gmail.com
+    url: mailto:emilianocontrerasr03@gmail.com
     icon: <i class="fa fa-envelope fact-icon"></i>
-    text: emicontrerasr@gmail.com
+    text: emilianocontrerasr03@gmail.com
 
 jobs:
   - position: Participant
@@ -53,6 +53,11 @@ educations:
   - degree: Mechatronics Engineering
     period: Expected May 2028
     university: Universidad de Sonora
+
+  - degree: Mechatronics Engineering
+    period: 2026-2
+    university: International Exchange at Politechnika Łódzka, Poland
+
     projects:
       - title: Adjustable DC Power Supply
         skills: ['Wave rectifier', 'Power Circuits', 'Filter π']
