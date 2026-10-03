@@ -50,13 +50,13 @@ jobs:
       - Team collaboration
 
 educations:
-  - degree: Mechatronics Engineering
+  - degree: Mechatronics Engineering Degree
     period: Expected May 2028
     university: Universidad de Sonora
 
-  - degree:
+  - degree: International Exchange
     period: 2026-2
-    university: International Exchange at Politechnika Łódzka, Poland
+    university: Politechnika Łódzka, Poland
 
     projects:
       - title: Adjustable DC Power Supply
